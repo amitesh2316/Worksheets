@@ -1,0 +1,130 @@
+WORKSHEET-1
+DEEP LEARNING
+Q1 to Q8 are MCQs with only one correct answer. Choose the correct option.
+1. Which of the following can approximate any function universally (i.e. universal approximators)?
+A) Boosted Decision Trees B) Neural Networks
+C) Kernel SVM D) All of the above
+Ans:- B) Neural Networks
+
+2. In which of the following domains we cannot use neural networks?
+A) Image Processing B) Speech Processing
+C) Fraud Detection D) None of the above
+Ans: B) Speech Processing
+
+3. Rearrange the following steps of a gradient descent algorithm in correct order of their occurrence?
+i. Initialize random weight and bias
+ii. Repeat the process until you find the best weights of network
+iii. Change weights and biases for each neuron to reduce the error
+iv. Calculate error distances between the actual and the predicted value
+v. Pass an input through the network and get values from output layer
+Choose the correct option:
+A) iv – i – iii – v – ii B) v – i – iii – iv –ii
+C) i – v – iv – iii – ii D) i – v – iii –iv –ii
+Ans:A) iv – i – iii – v – ii
+
+4. What is the full form of RNN?
+A) Recurrent Neural Network B) Recursive Neural Network
+C) Redundant Neural Network D) Resurrection Neural Network
+Ans:A) Recurrent Neural Network
+
+5. What is plasticity in neural networks?
+A) input pattern keeps on changing B) input pattern has become static
+C) output pattern keeps on changing D) output is static
+Ans: A) input pattern keeps on changin
+
+6. What is stability plasticity dilemma?
+A) system can neither be stable nor plastic
+B) static inputs & categorization can’t be handled
+C) dynamic inputs & categorization can’t be handled
+D) none of the above
+Ans:A) system can neither be stable nor plastic
+
+7. Read the following statements:
+Statement 1: It is possible to train a network well by initializing all the weights as 0
+Statement 2: It is possible to train a network well by initializing biases as 0
+Which of the statements given above is true, Choose the correct option?
+A) Statement 1 is true while Statement 2 is false
+B) Statement 2 is true while statement 1 is false
+C) Both statements are true
+D) Both statements are false
+Ans:B) Statement 2 is true while statement 1 is false
+
+8. Which of the following architecture has feedback connections?
+A) Recurrent Neural network B) Convolutional Neural Network
+C) Restricted Boltzmann Machine D) simple Artificial Neural Network
+Ans: A) Recurrent Neural network
+
+Q9 and Q10 are MCQs with one or more correct answers. Choose all the correct options.
+
+9. In training a neural network, you notice that the loss does not decrease in the few starting epochs. The reason behind it could be
+A) Learning Rate is low B) Regularisation parameter is high
+C) Regularisation parameter is low D) Stuck at local minima
+Ans: B) Regularisation parameter is high
+
+10. Which of the following function(s) can be used to impart non – linearity in a neural network?
+A) Stochastic Gradient Descent B) Rectified Linear Unit
+C) Convolution Function D) Sigmoid Function
+Ans: B) Rectified Linear Unit
+D) Sigmoid Function
+
+Q11 to Q15 are subjective answer type question. Answer them briefly.
+11. What is Deep Learning?
+Ans: Deep learning is an AI function that mimics the workings of the human brain in processing data for use in detecting objects, recognizing speech, translating languages, and making decisions.
+Deep learning AI is able to learn without human supervision, drawing from data that is both unstructured and unlabeled.
+Deep learning, a form of machine learning, can be used to help detect fraud or money laundering, among other functions.
+
+12. What is reinforcement learning?
+Ans:Reinforcement Learning is defined as a Machine Learning method that is concerned with how software agents should take actions in an environment. 
+Reinforcement Learning is a part of the deep learning method that helps you to maximize some portion of the cumulative reward.
+This neural network learning method helps you to learn how to attain a complex objective or maximize a specific dimension over many steps.
+Important characteristics of reinforcement learning:-
+There is no supervisor, only a real number or reward signal
+Sequential decision making
+Time plays a crucial role in Reinforcement problems
+Feedback is always delayed, not instantaneous
+Agent's actions determine the subsequent data it receives
+
+13. What Are the Differences Between Machine Learning and Deep Learning?
+Ans: Machine Learning: Machine learning is a subset, an application of Artificial Intelligence (AI) that offers the ability to the system to learn and improve from experience without being programmed to that level. 
+Machine Learning uses data to train and find accurate results. 
+Machine learning focuses on the development of a computer program that accesses the data and uses it to learn from themselves.
+Uses various types of automated algorithms that turn to model functions and predict future action from data
+Algorithms are detected by data analysts to examine specific variables in data sets
+Machine Learning is highly used to stay in the competition and learn new things
+
+Deep Learning: Deep Learning is a subset of Machine Learning where the artificial neural network, the recurrent neural network comes in relation. 
+The algorithms are created exactly just like machine learning but it consists of many more levels of algorithms. 
+All these networks of the algorithm are together called as the artificial neural network. 
+In much simpler terms, it replicates just like the human brain as all the neural networks are connected in the brain, exactly is the concept of deep learning. It solves all the complex problems with the help of algorithms and its process.
+Uses neural network that passes data through processing layers to the interpret data features and relations.
+Algorithms are largely self-depicted on data analysis once they’re put into production
+Deep Learning solves complex machine learning issues.
+
+14. What is a perceptron?
+Ans:Perceptron is a linear classifier (binary). Also, it is used in supervised learning. It helps to classify the given input data
+Perceptron is usually used to classify the data into two parts. Therefore, it is also known as a Linear Binary Classifier.
+The perceptron consists of 4 parts.
+Input values or One input layer
+Weights and Bias
+Net sum
+Activation Function
+
+15. What’s the difference between AI and ML?
+Ans: Artificial Intelligence : The word Artificial Intelligence comprises of two words “Artificial” and “Intelligence”. 
+Artificial refers to something which is made by human or non natural thing and Intelligence means ability to understand or think. 
+There is a misconception that Artificial Intelligence is a system, but it is not a system .AI is implemented in the system. 
+There can be so many definition of AI, one definition can be “It is the study of how to train the computers so that computers can do things which at present human can do better.
+”Therefore It is a intelligence where we want to add all the capabilities to machine that human contain.
+The goal is to simulate natural intelligence to solve complex problem	
+AI is decision making.	
+It leads to develop a system to mimic human to respond behave in a circumstances.	
+AI will go for finding the optimal solution.	ML will go for only solution for that whether it is optimal or not.
+
+Machine Learning : Machine Learning is the learning in which machine can learn by its own without being explicitly programmed.
+It is an application of AI that provide system the ability to automatically learn and improve from experience. 
+Here we can generate a program by integrating input and output of that program. 
+One of the simple definition of the Machine Learning is “Machine Learning is said to learn from experience E w.r.t some class of task T and a performance measure P if learners performance at the task in the class as measured by P improves with experiences.”
+The goal is to learn from data on certain task to maximize the performance of machine on this task.
+ML allows system to learn new things from data.
+It involves in creating self learning algorithms.
+ML will go for only solution for that whether it is optimal or not.
